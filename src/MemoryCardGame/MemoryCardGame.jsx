@@ -5,7 +5,7 @@ import { styled } from "@mui/system";
 import PropTypes from "prop-types";
 import { useSpring, animated } from "@react-spring/web";
 import background from "../assets/images/mode1.gif";
-import bgMusic from "../assets/audio/memory-bg.mp3";
+import bgMusic from "../assets/audio/music-miaw.mp3";
 import axios from "axios";
 import useCardStore from '../store/cardStore';
 

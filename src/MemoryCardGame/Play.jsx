@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Modal from "react-modal";
 import backgroundGif from "../assets/images/play.gif";
 import calmBackground from "../assets/images/calm-wallpaper.jpg";
-import backgroundMusic from "../assets/audio/background-music.mp3";
+import backgroundMusic from "../assets/audio/music-miaw.mp3";
 import buttonHoverSound from "../assets/audio/button-hover.mp3";
 import buttonClickSound from "../assets/audio/button-click.mp3";
 import { X } from "lucide-react";
@@ -219,16 +219,7 @@ const Play = () => {
         >
           Play
         </button>
-        <button
-          className={`game-button ${isCalmMode ? "calm-button" : ""}`}
-          onClick={() => {
-            playClickSound();
-            alert("Instructions coming soon!");
-          }}
-          onMouseEnter={playHoverSound}
-        >
-          Instructions
-        </button>
+        
         <button
           className={`game-button ${isCalmMode ? "calm-button" : ""}`}
           onClick={SettingopenModal}
